@@ -7,13 +7,13 @@ A lightweight, automated Python tool designed to audit web server security postu
 &nbsp;Features
 
 * Comprehensive Audit: Checks for 8 industry-standard security headers.
-* 
+  
 * Intelligent Grading: Automatically assigns a security grade (A through F) based on the presence of critical vs. non-critical headers.
-* 
+  
 * Actionable Insights: Provides a "Why it matters" description and "Recommended configuration" for every missing header.
-* 
+  
 * Redirect Awareness: Follows redirects to find the final landing page and its actual security state.
-* 
+  
 * Robust Error Handling: Specifically catches SSL errors, timeouts, and connection issues.
 
 
@@ -52,17 +52,13 @@ python scanner.py google.com
 
 
 
-Example Report Output
-
-Plaintext
+Example Report Output:-
 
 ------------------------------------------------------------
 
 &nbsp; SECURITY GRADE:  B  —  Good — all critical headers present. 
 
 ------------------------------------------------------------
-
-
 
 &nbsp;PRESENT HEADERS (5/8):
 
@@ -79,4 +75,5 @@ Plaintext
 &nbsp;              Why it matters : Restricts access to browser features.
 
 &nbsp;              Recommended    : Restrict unused features explicitly.
+
 
