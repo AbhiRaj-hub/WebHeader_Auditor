@@ -24,7 +24,7 @@ Clone the repository:
 
 Bash
 
-git clone https://github.com/yourusername/header-scanner.git
+git clone https://github.com/AbhiRaj-hub/header-scanner.git
 
 cd header-scanner
 
@@ -75,5 +75,6 @@ Example Report Output:-
 &nbsp;              Why it matters : Restricts access to browser features.
 
 &nbsp;              Recommended    : Restrict unused features explicitly.
+
 
 
